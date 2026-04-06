@@ -6,15 +6,15 @@
 <style>
   body {
     background-color: black;
-    color: #ccc;
+    color: #888;
     font-family: 'Courier New', monospace;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
     line-height: 1.6em;
   }
 
   h1 {
-    color: #ff00ff;
+    color: #a020f0;
     font-size: 2em;
     margin-bottom: 20px;
   }
@@ -25,31 +25,33 @@
     margin: 10px auto;
   }
 
-  audio {
+  img {
+    max-width: 80%;
     margin-top: 40px;
+    opacity: 0.8; /* subtle, slightly transparent */
   }
 
-  .hint {
-    color: #555;
-    font-style: italic;
-    margin-top: 20px;
+  audio {
+    margin-top: 40px;
   }
 </style>
 </head>
 <body>
 
-<h1>You have followed the dark path</h1>
+<h1>darkpath</h1>
 
 <p>The sound is broken. Not everything is meant for your ears. Some things must be seen.</p>
 
-<!-- Audio spectrogram puzzle -->
+<!-- Spectrogram audio puzzle -->
 <audio controls>
   <source src="spectrogram.wav" type="audio/wav">
+  Your browser does not support the audio element.
 </audio>
 
-<p class="hint">…</p>
+<!-- Subtle creepy / nostalgic image -->
+<img src="nagoya_university.jpg" alt="…">
 
-<!-- Optional hidden comment for hardcore players -->
+<!-- hidden for hardcore players -->
 <!-- idkwhat_01234 -->
 
 </body>
